@@ -1,0 +1,83 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Library", "Library", "{CA0A0EB3-B831-47C7-AE6E-F56ECA5B3799}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{3D0ADC76-9E52-4B24-9ED1-DF2D0D43223D}"
+	ProjectSection(SolutionItems) = preProject
+		Class1.cs = Class1.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{EC58F6AF-8896-4DF6-8BB1-72CF1AF9AD55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPVTubeLib", "ClassLibrary\UPVTubeLib.csproj", "{C33266C2-B95F-46CE-96FB-8F45C59A015F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab1", "Lab1", "{AC33F2D5-8068-41FF-A1F0-17A3FD3DE14C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldApp", "HelloWorldApp\HelloWorldApp.csproj", "{5C81AEDC-DE62-4D16-8872-C2333565DBB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPVTubeObjectDesignTests", "UPVTubeObjectDesignTests\UPVTubeObjectDesignTests.csproj", "{48E97C2A-5638-42CF-B6F9-62EFF5DBBA34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPVTubePersistenceTests", "UPVTubePersistenceTests\UPVTubePersistenceTests.csproj", "{2F43F354-5D3C-48BA-A632-00D79D6607EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBTest", "DBTest", "{C674F92F-8210-48B3-BEFE-C392AEA35359}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBTest", "DBTest\DBTest.csproj", "{2A024D15-2A4B-4DBA-94E6-2DDEDF244650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F98CD7BF-2FA0-4DC7-BE8B-D10C936EDB2E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UPVTube.GUI", "UPVTube.GUI\UPVTube.GUI.csproj", "{7A3595E5-EF79-43EF-9AB1-76FB28295D5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C33266C2-B95F-46CE-96FB-8F45C59A015F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33266C2-B95F-46CE-96FB-8F45C59A015F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33266C2-B95F-46CE-96FB-8F45C59A015F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33266C2-B95F-46CE-96FB-8F45C59A015F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C81AEDC-DE62-4D16-8872-C2333565DBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C81AEDC-DE62-4D16-8872-C2333565DBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C81AEDC-DE62-4D16-8872-C2333565DBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C81AEDC-DE62-4D16-8872-C2333565DBB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48E97C2A-5638-42CF-B6F9-62EFF5DBBA34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48E97C2A-5638-42CF-B6F9-62EFF5DBBA34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48E97C2A-5638-42CF-B6F9-62EFF5DBBA34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48E97C2A-5638-42CF-B6F9-62EFF5DBBA34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F43F354-5D3C-48BA-A632-00D79D6607EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F43F354-5D3C-48BA-A632-00D79D6607EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F43F354-5D3C-48BA-A632-00D79D6607EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F43F354-5D3C-48BA-A632-00D79D6607EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A024D15-2A4B-4DBA-94E6-2DDEDF244650}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A024D15-2A4B-4DBA-94E6-2DDEDF244650}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A024D15-2A4B-4DBA-94E6-2DDEDF244650}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A024D15-2A4B-4DBA-94E6-2DDEDF244650}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3595E5-EF79-43EF-9AB1-76FB28295D5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3595E5-EF79-43EF-9AB1-76FB28295D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3595E5-EF79-43EF-9AB1-76FB28295D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3595E5-EF79-43EF-9AB1-76FB28295D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C33266C2-B95F-46CE-96FB-8F45C59A015F} = {CA0A0EB3-B831-47C7-AE6E-F56ECA5B3799}
+		{AC33F2D5-8068-41FF-A1F0-17A3FD3DE14C} = {EC58F6AF-8896-4DF6-8BB1-72CF1AF9AD55}
+		{5C81AEDC-DE62-4D16-8872-C2333565DBB1} = {AC33F2D5-8068-41FF-A1F0-17A3FD3DE14C}
+		{48E97C2A-5638-42CF-B6F9-62EFF5DBBA34} = {EC58F6AF-8896-4DF6-8BB1-72CF1AF9AD55}
+		{2F43F354-5D3C-48BA-A632-00D79D6607EE} = {EC58F6AF-8896-4DF6-8BB1-72CF1AF9AD55}
+		{C674F92F-8210-48B3-BEFE-C392AEA35359} = {EC58F6AF-8896-4DF6-8BB1-72CF1AF9AD55}
+		{2A024D15-2A4B-4DBA-94E6-2DDEDF244650} = {C674F92F-8210-48B3-BEFE-C392AEA35359}
+		{7A3595E5-EF79-43EF-9AB1-76FB28295D5E} = {3D0ADC76-9E52-4B24-9ED1-DF2D0D43223D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8488E5EA-32E5-423E-B4BB-B3631D1ACBFA}
+	EndGlobalSection
+EndGlobal
