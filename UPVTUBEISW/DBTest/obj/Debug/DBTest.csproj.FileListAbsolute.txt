@@ -1,0 +1,15 @@
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\bin\Debug\DBTest.exe.config
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\bin\Debug\DBTest.exe
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\bin\Debug\DBTest.pdb
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\bin\Debug\EntityFramework.dll
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\bin\Debug\UPVTubeLib.dll
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\bin\Debug\UPVTubeLib.pdb
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\bin\Debug\UPVTubeLib.dll.config
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\bin\Debug\EntityFramework.xml
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\obj\Debug\DBTest.csproj.AssemblyReference.cache
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\obj\Debug\DBTest.csproj.CoreCompileInputs.cache
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\obj\Debug\DBTest.csproj.CopyComplete
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\obj\Debug\DBTest.exe
+C:\Users\Bence\source\repos\UPVTUBEISW\DBTest\obj\Debug\DBTest.pdb
