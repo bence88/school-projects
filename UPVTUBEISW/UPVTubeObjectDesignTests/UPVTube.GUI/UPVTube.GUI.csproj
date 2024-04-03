@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7A3595E5-EF79-43EF-9AB1-76FB28295D5E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UPVTube.GUI</RootNamespace>
+    <AssemblyName>UPVTube.GUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddCommentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddCommentForm.Designer.cs">
+      <DependentUpon>AddCommentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DisplayConentDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DisplayConentDetailsForm.Designer.cs">
+      <DependentUpon>DisplayConentDetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EvaluationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EvaluationForm.Designer.cs">
+      <DependentUpon>EvaluationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LogInForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogInForm.Designer.cs">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PendingContentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PendingContentForm.Designer.cs">
+      <DependentUpon>PendingContentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SearchContentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchContentForm.Designer.cs">
+      <DependentUpon>SearchContentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterUserForm.Designer.cs">
+      <DependentUpon>RegisterUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UploadNewContentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UploadNewContentForm.Designer.cs">
+      <DependentUpon>UploadNewContentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UPVTubeApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UPVTubeApp.Designer.cs">
+      <DependentUpon>UPVTubeApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AddCommentForm.resx">
+      <DependentUpon>AddCommentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DisplayConentDetailsForm.resx">
+      <DependentUpon>DisplayConentDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EvaluationForm.resx">
+      <DependentUpon>EvaluationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogInForm.resx">
+      <DependentUpon>LogInForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PendingContentForm.resx">
+      <DependentUpon>PendingContentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RegisterUserForm.resx">
+      <DependentUpon>RegisterUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SearchContentForm.resx">
+      <DependentUpon>SearchContentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UploadNewContentForm.resx">
+      <DependentUpon>UploadNewContentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UPVTubeApp.resx">
+      <DependentUpon>UPVTubeApp.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="UPVTube.Entities.Content.datasource" />
+    <None Include="UPVTube.Entities.Member.datasource" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary\UPVTubeLib.csproj">
+      <Project>{c33266c2-b95f-46ce-96fb-8f45c59a015f}</Project>
+      <Name>UPVTubeLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+</Project>
