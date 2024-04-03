@@ -1,0 +1,3 @@
+Szegedi_Bence Tiszafured Borsoskert_u 9 5350 0123456789 alap
+Maros_Peter Sopron Uborka_u 9 6666 9876543210 mnet
+Torok_Akos Eger Kolbasz_u 1 7777 9999999999 mnet
